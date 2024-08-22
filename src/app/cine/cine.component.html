@@ -1,0 +1,21 @@
+
+<form>
+<div>
+    <label for="">Cine
+        <input #cine type="text" name="cine">
+    </label>
+</div>
+<div>
+    <label for="">Direccion
+        <input #direccion type="text" name="direccion">
+    </label>
+</div>
+<div>
+    <label for="">Ciudad
+        <input #ciudad type="text" name="ciudad">
+    </label>
+</div>
+<div>
+    <button type="button" (click)="storeCine(cine,direccion,ciudad)">Registrar</button>
+</div>
+</form>
